@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const email = document.getElementById("email").value;
         const password = document.getElementById("password").value;
 
-        if (email === "admin@test.com" && password === "1234") {
+        if (email === "admin" && password === "admin") {
             localStorage.setItem("loggedIn", "true");
             loginContainer.classList.add("hidden");
             mainContainer.classList.remove("hidden");
