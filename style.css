@@ -1,0 +1,15 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.container {
+  transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+  transform: scale(1.05);
+}
+
+.hidden {
+  display: none;
+}
